@@ -50,3 +50,21 @@ print(f"chr(97) :{chr(97)}")
 print(f"chr(122) :{chr(122)}")
 print(f"chr(65) :{chr(65)}")
 print(f"chr(90) :{chr(90)}")
+
+print("Bitwise Operator".center(60, "-"))
+print(f"5 | 3 = {5 | 3}")
+print(f"5 & 3 = {5 & 3}")
+print(f"5 ^ 3 = {5 ^ 3}")
+print(f"5 << 1 = {5 << 1}")
+print(f"8 << 1 = {8 << 1}")
+print(f"5 << 2 = {5 << 2}")
+print(f"16 >> 1 = {16 >> 1}")
+print(f"5 >> 1 = {5 >> 1}")
+
+print(f"~0 = {~0}")
+print(f"~5 = {~5}")
+
+print("Ternary Operator".center(60, "-"))
+age = 18
+print("Eligible" if age > 17 else 'Not Eligible')
+
